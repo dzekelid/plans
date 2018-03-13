@@ -33,7 +33,7 @@ apis:
   tags: Plans
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/plans/master/_listings/stripe/plans-plan-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/plans/master/_listings/stripe/plans-plan-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
