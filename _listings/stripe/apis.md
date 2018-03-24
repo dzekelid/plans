@@ -20,8 +20,8 @@ tags:
 - Change Log
 - Billing
 - API LIfeycle
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Plans
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-plan-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
