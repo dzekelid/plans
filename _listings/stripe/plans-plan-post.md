@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Plans Plan
+  description: "Updates the specified plan by setting the values of the parameters
+    passed. Any parameters not provided are left unchanged. By design, you cannot
+    change a plan\u2019s ID, amount, currency, or billing cycle."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
