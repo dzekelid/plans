@@ -1,9 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Get Funding Plans
+  description: Use the GetFundingPlans API operation to determine the funding sources
+    that are available for a specified payment, identified by its key, which takes
+    into account the preferences and country of the receiver as well as the payment
+    amount. You must be both the sender of the payment and the caller of this API
+    operation
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
