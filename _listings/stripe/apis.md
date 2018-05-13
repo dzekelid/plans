@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-plan-post.md
-- name: Stripe Add Plans
-  description: You can create plans using the API, or in the Stripe Dashboard.
+- name: Stripe Delete Plans Plan
+  description: "You can delete plans using the API, or in the Stripe Dashboard. Deleting
+    plans means new subscribers can\u2019t be added. Existing subscribers aren\u2019t
+    affected."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Plans
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-plan-delete.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
