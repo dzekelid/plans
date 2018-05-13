@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Delete Plans Plan
+  description: "You can delete plans using the API, or in the Stripe Dashboard. Deleting
+    plans means new subscribers can\u2019t be added. Existing subscribers aren\u2019t
+    affected."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
