@@ -34,17 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-plan-post.md
-- name: Stripe Get Plans
-  description: Returns a list of your plans.
+- name: Stripe Add Plans
+  description: You can create plans using the API, or in the Stripe Dashboard.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Plans
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
