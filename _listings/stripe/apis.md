@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-plan-post.md
-- name: Stripe Get Plans Plan
-  description: Retrieves the plan with the given ID.
+- name: Stripe Add Plans Plan
+  description: "Updates the specified plan by setting the values of the parameters
+    passed. Any parameters not provided are left unchanged. By design, you cannot
+    change a plan\u2019s ID, amount, currency, or billing cycle."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Plans
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-plan-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-plan-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/plans/master/_listings/stripe/plans-plan-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
